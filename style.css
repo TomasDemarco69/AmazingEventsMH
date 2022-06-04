@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+header{
+    min-height: 15vh; 
+    background-color: black;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+main{
+    min-height: 80vh;
+    background-color: grey;
+}
+footer{
+    height: 8.9vh;
+}
+.formulario{
+    min-height:67.5vh ;
+    width: 90%;
+}
+.table-div{
+    min-height: 68vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tabla{
+    width: 90%;
+    margin: 1rem;
+}
+.form-control{
+    resize: none;
+   
+}
+
+.logo{
+    width: 20rem;
+    border: 2px solid black;
+}
+.flecha{
+    width: 3vw;
+    margin: 1rem;
+}
+.busqueda{
+    height: 2rem;
+    margin-top: 3rem;
+    
+}
+.busqueda-check{
+    margin: .5rem;
+}
+.checkmark{
+background-color: red;
+color: red;
+}
+.search-lupa{
+    width: 15rem;
+    transform: translatey(-.3rem);
+}
+.nav-main{
+    background-color: rgb(87, 85, 85);
+    min-height: 14.3vh;
+    display: flex;
+    align-items: center;
+}
+.h2-a{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+   margin-top: 3rem;
+   min-height: 70vh;
+    width: 100%; 
+    
+}
+
+.card{
+    width:22rem;
+    height: 22rem;
+    border: 2px solid black;
+    margin: 1rem ;
+}
+.card-img-top{
+    width: 100%;
+    height: 12rem;
+    padding: .5rem;
+}
+.btn-lg{
+    background-color: rgb(217, 3, 104);
+    color: black;
+    margin: .5rem;
+    text-decoration: none;
+}
+.contenedorfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 8.9vh;
+    background-color: black;
+}
+.footericonos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.logoig{
+    width: 2rem;
+    border-radius: 80%;
+    margin: 1rem;
+} 
+.logofb{
+    width: 2rem;
+    border-radius: 80%;
+     margin: 1rem;
+}
+.logowp{
+    width: 2rem;
+    margin: 1rem;
+}
+.footertexto{
+    color: rgb(217, 3, 104);
+    margin-right: 5rem;
+}
+
+/* @media screen and  (max-width:500px){
+    .card{
+        transform: translateY(6rem);
+    }
+
+} */
+
+/* CONTACT */
+main>.contenedorform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenedorform{
+    display: flex;
+    flex-direction: column;
+    height: 42rem;
+    width: 100%;
+    background-color:grey;
+
+}
+.contenedorform>form{
+    display: flex;
+    flex-direction: column;
+    width: 29rem;
+    justify-content: center;
+}
+.cajamesagge{
+    height: 112px;
+    resize: none;
+}
+.cajasend{
+    display: flex;
+    justify-content: flex-end;
+    width: 65rem;
+    align-items: center;
+}
+.botonsend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 2rem;
+    font-size: 1.2rem;
+   
+}
+/* STATS */
+/* STATS */
+/* STATS */
+
+.contenedortabla{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    margin-left: 12rem;
+    transform: translateY(1.8rem);
+}
+th{
+    background-color: black;
+    color: rgb(217, 3, 104);
+}
+table,tr,th{
+   
+    border: 1px solid black;
+     
+
+}
+.tabla{
+    width: 100%;
+
+}
+thead{
+    font-size: 1.5rem;
+    color: rgb(217, 3, 104);
+}
+.attendancestats{
+    width: 10rem;
+}
+.capacitystats{
+    width: 8rem;
+}
+/* PAGINA DETALLES EVENTOS */
+/* PAGINA DETALLES EVENTOS */
+/* PAGINA DETALLES EVENTOS */
+
+#contenedordetalles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 25rem;
+    background-color: black;
+    transform: translateY(4.35rem);
+    
+}
+#detallesizq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 90%;
+    background-color: rgb(228, 224, 224);
+}
+#detallesder{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 40%;
+    height: 90%;
+    background-color: white;
+    
+}
+#contenedorfoto{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    height: 80%;
+}
+.contenedordetallesder{
+    margin-left: 3rem;
+    margin-top: 7.5rem;
+    font-size: 1.5rem;
+}
+ul{
+    color: rgb(217, 3, 104);
+}
+li{
+    color: white;
+   
+}   
+#checkboxes > label> input{
+    margin: .1rem;
+    background-color: black;
+}
+ #checkboxes > label{ 
+    margin: .5rem;
+    color: white;
+}
+.filteritem > #search{
+    width: 30rem;
+    
+   
+}
+#contenedordetalles > .detallesizq > #contenedorfoto >img{
+    width: 30rem;
+}
+
+.card-detalles{
+    display:flex;
+    flex-wrap:wrap;
+    width:80vw;
+    height:50vh;
+    border:none;
+    background-color:black;
+}
+.descripcion-detalles{
+    display:flex;
+    flex-wrap:wrap;
+    width:40vw;
+    height:50vh;
+}
+
+.img-detalles{
+    width:25vw;
+    height:50vh;
+}
+.texto-detalles{
+    color:white;
+}
+
+@media screen and (max-width:720px) {
+   
+     .card-detalles{
+         display: flex;
+         min-height:50vh;
+         width:80vw;
+         background-color:blueviolet;
+     }
+     .img-detalles{
+         width:80vw;
+         height:35vh;
+     }
+     .descripcion-detalles{
+         width:80vw;
+         height:35vh;
+         background-color:black;
+         display:flex;
+         flex-direction:column;
+     }
+     .contenedor-img-detalles{
+        width:80vw;
+        height:35vh;
+        background-color:green;
+    }
+    .titulo-card-detalles{
+        width:80vw;
+    }
+}
+@media screen and (max-width:650px){
+    .card-detalles{
+        height:40vh;
+        margin-bottom:1rem;
+    }
+    .descripcion-detalles{
+        height:40vh;
+    }
+}
+.acomodardetalles{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
